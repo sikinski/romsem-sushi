@@ -1,0 +1,27 @@
+body 
+    display grid
+    grid-template-columns 320px 1fr 430px
+
+    .nav-sidebar
+        grid-area: 1 / 1 / 4 / 2
+
+    .header
+        grid-area: 1 / 2 / 2 / 3
+        width 100%
+        height 94.5px
+        background-color rgb(255, 255, 193)
+
+    .basket-sidebar
+        grid-area: 1 / 3 / 4 / 4
+        background-color rgb(177, 177, 255)
+
+    .main
+        grid-area: 2 / 2 / 3 / 3
+        height 850px
+        background-color rgb(181, 255, 181)
+
+    .footer
+        grid-area: 3 / 2 / 4 / 3
+        height 269px
+        background-color rgb(255, 202, 202)
+        align-self: end;

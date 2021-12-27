@@ -9,10 +9,10 @@
 </head>
 
 <body>
-    <aside class="nav-sidebar">
+    <aside class="nav-sidebar flex-column">
         <img src="./assets/images/logo.png" class="logo" />
         <nav class="nav">
-            <ul class="menu">
+            <ul class="menu flex-column">
                 <li class="menu-item">
                     <img src="./assets/images/icons/pizza.svg" class="item-icon">
                     <p class="item-name">Пицца</p>
@@ -26,7 +26,29 @@
             </ul>
         </nav>
     </aside>
-    <header class="header"></header>
+
+    <header class="header">
+        <div class="left-side">
+            <div class="contacts flex-column">
+                <p class="text">Наш телефон</p>
+                <p class="phone">+996 705 188 955</p>
+                <p class="phone">+996 555 188 955</p>
+                <p class="opacity-text"><span class="clock-icon"></span>работаем с 10-00 до 00-00</p>
+            </div>
+            <div class="location flex-column">
+                <p class="opacity-text">Город:</p>
+                <button class="location-btn">Бишкек</button>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <a href="#" class="reviews">Отзывы</a>
+            <a href="#" class="shipping-payment">Доставка и оплата</a>
+            <div class="search">
+                <img src="./assets/images/icons/search.svg" alt="search" class="search-icon">
+            </div>
+        </div>
+    </header>
 
     <main class="main"></main>
 

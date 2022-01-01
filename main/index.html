@@ -52,21 +52,54 @@
     </header>
 
     <main class="main">
-        <div class="start-block main-blocks">
-            <img src="./assets/images/start-pic.jpeg" alt="" class="start-pic" />
-            <div class="text-content flex-column">
-                <p class="name-set">Филадельфия и лосось</p>
-                <p class="weight">1200 грамм 36 кусочков</p>
-                <div class="price flex-column">
-                    <div class="last-price">
-                        <del>1599 COM</del>
+        <section class="slider main-blocks">
+            <div class="start-block">
+                <img src="./assets/images/start-pic.jpeg" alt="" class="start-pic" />
+                <div class="text-content flex-column">
+                    <p class="name-set">Филадельфия и лосось</p>
+                    <p class="weight">1200 грамм 36 кусочков</p>
+                    <div class="price flex-column">
+                        <div class="last-price">
+                            <del>1599 COM</del>
+                        </div>
+                        <!-- <p class="last-price"><span></span>1599 COM</p> -->
+                        <p class="actual-price">599 COM</p>
                     </div>
-                    <!-- <p class="last-price"><span></span>1599 COM</p> -->
-                    <p class="actual-price">599 COM</p>
+                    <button class="buy-btn">Хочу!</button>
                 </div>
-                <button class="buy-btn">Хочу!</button>
             </div>
-        </div>
+
+            <ul class="pagination-dots">
+                <li class="pag-dot active"></li>
+                <li class="pag-dot"></li>
+            </ul>
+
+        </section>
+
+        <section class="categories main-blocks">
+            <div class="category chicken">Чикен</div>
+            <div class="category eel">С угрем</div>
+            <div class="category dog">Корн дог</div>
+            <div class="category pizza">Пицца</div>
+            <div class="category promo">Акции</div>
+        </section>
+
+        <!-- <section class="carousel">
+            <div class="filter-btns">
+                <button class="new-items-btn active">Новинки</button>
+                <button class="popular-items-btn">Популярное</button>
+            </div>
+            
+            <div class="card">
+                <img src="./assets/images/card-1.png" alt="" class="card-pic" />
+                <p class="name-set">Саломон сет</p>
+                <p class="small-text">1050 грамм, 30 кусочков</p>
+            </div>
+
+            <button class="back-btn"></button>
+            <button class="forward-btn"></button>
+
+        </section> -->
     </main>
 
     <footer class="footer"></footer>
